@@ -6,6 +6,7 @@ import Orders from "./pages/Orders";
 import Admin from "./pages/Admin";
 import PaymentPage from "./pages/PaymentPage";
 import SuccessPage from "./pages/SuccessPage";
+import OrderSummary from "./pages/OrderSummary";
 
 function App() {
   return (
@@ -17,10 +18,16 @@ function App() {
         <Link to="/admin" className="hover:text-green-400">Admin</Link>
       </nav>
 
+      {/* 🧪 Tailwind Test */}
+      <div className="p-4">
+        <h1 className="text-3xl font-bold text-red-500">Tailwind OK ✅</h1>
+      </div>
+
       {/* 📌 Page Routes */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/summary" element={<OrderSummary />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/success" element={<SuccessPage />} />

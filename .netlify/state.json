@@ -1,3 +1,21 @@
 {
-	"siteId": "afc980aa-3f46-4106-a8fe-2534b94d8c96"
+	"siteId": "afc980aa-3f46-4106-a8fe-2534b94d8c96",
+	"geolocation": {
+		"data": {
+			"city": "Coimbatore",
+			"country": {
+				"code": "IN",
+				"name": "India"
+			},
+			"subdivision": {
+				"code": "TN",
+				"name": "Tamil Nadu"
+			},
+			"timezone": "Asia/Kolkata",
+			"latitude": 11.0102,
+			"longitude": 76.9701,
+			"postalCode": "641001"
+		},
+		"timestamp": 1758442083150
+	}
 }
