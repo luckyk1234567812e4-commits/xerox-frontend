@@ -5,7 +5,7 @@ import axios from "axios";
 export const handleOrder = async (supabase, file, orderData) => {
   try {
     const fileName = `${Date.now()}_${file.name}`;
-    const { data, error } = await supabase.storage
+    const { error } = await supabase.storage
       .from("orders-files") // ✅ Ensure this is your correct bucket name
       .upload(fileName, file);
 
